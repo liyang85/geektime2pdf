@@ -30,7 +30,7 @@ module.exports = {
 
 * `firstArticalId` 这个参数最好配置专栏第一篇文章的 `ID` ，这个可以获取专栏的所有的文章,若不是第一篇文章的`ID` 则获取的是该文章以及之后的文章
 
-* `cookie` 你在网页版登录后返回的`cookie`信息
+* `cookie` 你在网页版登录后返回的 `cookie` 信息（关键字段：`cookie: 'GCESS= ... ; GCID= ... '`）
 
 ### 运行
 
